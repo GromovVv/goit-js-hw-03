@@ -11,7 +11,6 @@ const findBestEmployee = function(employees) {
     return bestEmployee;
   };
   
-  
   console.log(
     findBestEmployee({
       ann: 29,
@@ -19,7 +18,7 @@ const findBestEmployee = function(employees) {
       helen: 1,
       lorence: 99,
     }),
-  ); // lorence
+  ); 
   
   console.log(
     findBestEmployee({
@@ -27,7 +26,7 @@ const findBestEmployee = function(employees) {
       mango: 17,
       ajax: 4,
     }),
-  ); // mango
+  ); 
   
   console.log(
     findBestEmployee({
@@ -36,4 +35,4 @@ const findBestEmployee = function(employees) {
       kiwi: 19,
       chelsy: 38,
     }),
-  ); // lux
+  ); 

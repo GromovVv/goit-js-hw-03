@@ -49,12 +49,10 @@ const account = {
   },
 };
 console.log(account.createTransaction(100, 'deposit'))
-console.log(account.createTransaction(200, 'deposit'))
-console.log(account.deposit(401));
+console.log(account.deposit(400));
 console.log(account.deposit(500));
 console.log(account.withdraw(100));
 console.log(account.withdraw(300));
-console.log(account.withdraw(500));
 console.log(account.getBalance());
 console.log(account.getTransactionDetails(3));
 console.log(account.getTransactionTotal('deposit'));

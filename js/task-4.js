@@ -15,7 +15,7 @@ const countTotalSalary = function(employees) {
 };
 
 
-console.log(countTotalSalary({})); // 0
+console.log(countTotalSalary({}));
 
 console.log(
   countTotalSalary({
@@ -23,7 +23,7 @@ console.log(
     poly: 150,
     alfred: 80,
   }),
-); // 330
+);
 
 console.log(
   countTotalSalary({
@@ -31,4 +31,4 @@ console.log(
     lux: 50,
     chelsy: 150,
   }),
-); // 400
+);
